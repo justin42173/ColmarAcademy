@@ -1,0 +1,85 @@
+/* Universal Styles */
+
+.container {
+  max-width: 960px;
+  margin: 0, auto;
+}
+
+
+/* Header */
+
+.header .container  {
+display: flex;
+}
+
+.nav {
+display: inline-flex;
+margin-left: 600px;
+}
+
+.logo {
+  margin-left: 24px;
+}
+
+/* Banner-Main */
+
+.banner {
+  background-color: beige;
+}
+
+.banner .container {
+  display: inline-flex;
+  }
+
+.banner-image {
+  height: auto;
+  width: 60px;
+}
+
+.button {
+  background-color: gray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.banner-text h1 {
+  font-size: 2rem;
+}
+
+.banner-text h2 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Practcing Section */
+
+.info-main .container {
+  display: inline-flex;
+}
+
+.practicing-images .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .top {
+  display: flex;
+}
+
+.container .middle {
+  display: flex;
+}
+
+.container .bottom {
+  display: flex;
+}
